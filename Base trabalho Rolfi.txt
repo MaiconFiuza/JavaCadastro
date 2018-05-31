@@ -1,0 +1,37 @@
+O que o professor quer que a gente faça
+
+Nosso trabalho da P2 , que deverá ser entregue até a semana da Prova P2, dia 5/6 , será nos mesmos moldes do trabalho P1, salvo que agora iremos trabalhar um único PCF , o de Educação, pois seus processos são mais intuitivos .
+
+Teremos duas requisições:
+
+A) Formulário em Netbeans com Validação : Embranco, Número ou Formato do Dado caso houver (ex. cpf, rg, telefone etc), descrito no formulário ou campo o Processo e SubProcesso que está executando dentro de uma Label .
+
+B) Conexão com o Bd: Inserção, Deleção, Edição e Busca
+
+
+
+=======================================================
+
+O que eu pensei em fazer, um cadastro de funcionários para treinamento
+
+
+funcionário 
+tipos de cargos = adm , professores e Serviços Gerais
+Dependendo do Cargo a gente manda a pessoa para um local de treinamento.
+
+class abstract pessoa
+Nome 
+nascimento
+telefone
+estado civil
+sexo
+cargo
+
+class professor extends pessoa
+nível(tipo bacharel, doutor , mestre ou MBA)
+
+
+Serviços gerais
+especifiação(ex: limpeza, estacionamento, segurança)
+
+
